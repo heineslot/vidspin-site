@@ -38,3 +38,9 @@ li { margin: 6px 0; }
 dt { font-weight: 600; margin-top: 20px; }
 dd { margin: 4px 0 0; color: var(--text); }
 hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
+.social { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); }
+.social p { color: var(--muted); font-size: 15px; margin: 0 0 12px; }
+.social ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.social li { margin: 0; }
+.social a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 15px; }
+.social svg { width: 18px; height: 18px; fill: currentColor; }
